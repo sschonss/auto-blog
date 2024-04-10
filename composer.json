@@ -1,0 +1,21 @@
+{
+    "name": "schons/src",
+    "description": "Devops II Project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Schons\\Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Schons"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/dom-crawler": "^5.0",
+        "symfony/css-selector": "^7.0"
+    }
+}
